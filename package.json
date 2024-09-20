@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "cypress": "^13.14.2",
+    "serve": "^14.2.3",
+    "tesseract.js": "^5.1.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
