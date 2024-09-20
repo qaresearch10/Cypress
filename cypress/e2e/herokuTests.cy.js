@@ -5,7 +5,7 @@ import basicAuthPage from "../page_objects/basicAuthPage";
 import challengingDOMPage from "../page_objects/challengingDOMPage";
 
 describe("Heroku app tests", () => {
-  it.skip("Add/Remove Elements Test", () => {
+  it("Add/Remove Elements Test", () => {
     herokuHomePage.visitHomePage();
     herokuHomePage.navigateToExamples(
       herokuHomePage.elements.addRemoveElements
@@ -23,7 +23,7 @@ describe("Heroku app tests", () => {
     );
   });
 
-  it.skip("Basic authentication test", () => {
+  it("Basic authentication test", () => {
     // Navigate to the home page
     cy.visit("https://the-internet.herokuapp.com/basic_auth", {
       auth: {
@@ -36,7 +36,7 @@ describe("Heroku app tests", () => {
     cy.get(basicAuthPage.elements.title).should("have.text", expectedText);
   });
 
-  it.skip("Broken Images Test", () => {
+  it("Broken Images Test", () => {
     cy.log("This test is expected to fail.");
 
     herokuHomePage.visitHomePage();
@@ -54,7 +54,7 @@ describe("Heroku app tests", () => {
     });
   });
 
-  it("Challenging DOM Test", () => {
+  it.skip("Challenging DOM Test", () => {
     herokuHomePage.visitHomePage();
     herokuHomePage.navigateToExamples(herokuHomePage.elements.challengingDom);    
    
