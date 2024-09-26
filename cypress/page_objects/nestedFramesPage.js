@@ -2,11 +2,11 @@ class Elements {
     
 }
 
-class basicAuthPage {
+class nestedFramesPage {
   constructor() {
     this.elements = new Elements();
   }
   // Methods
 }
 
-export default new basicAuthPage();
+export default new nestedFramesPage();

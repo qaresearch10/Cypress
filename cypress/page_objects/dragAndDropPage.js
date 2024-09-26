@@ -2,11 +2,11 @@ class Elements {
     
 }
 
-class basicAuthPage {
+class dragAndDropPage {
   constructor() {
     this.elements = new Elements();
   }
   // Methods
 }
 
-export default new basicAuthPage();
+export default new dragAndDropPage();

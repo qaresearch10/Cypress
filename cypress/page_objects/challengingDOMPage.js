@@ -2,11 +2,11 @@ class Elements {
   table = "";
 }
 
-class basicAuthPage {
+class challengingDOMPage {
   constructor() {
     this.elements = new Elements();
   }
   // Methods
 }
 
-export default new basicAuthPage();
+export default new challengingDOMPage();

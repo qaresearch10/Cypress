@@ -2,11 +2,11 @@ class Elements {
     
 }
 
-class basicAuthPage {
+class jQueryUIPage {
   constructor() {
     this.elements = new Elements();
   }
   // Methods
 }
 
-export default new basicAuthPage();
+export default new jQueryUIPage();

@@ -56,8 +56,7 @@ describe("Heroku app tests", () => {
 
   it.skip("Challenging DOM Test", () => {
     herokuHomePage.visitHomePage();
-    herokuHomePage.navigateToExamples(herokuHomePage.elements.challengingDom);    
-   
+    herokuHomePage.navigateToExamples(herokuHomePage.elements.challengingDom);  
    
   });     
 });
